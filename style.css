@@ -52,12 +52,14 @@
     height: 82%;
     width: 42%;
     float: left;
-    text-align: left;
     color: black;
+}
+#account{
+    text-align: center;
 }
 #submit_button{
     background: none;
-    background-color: purple;
+    background-color: rgb(146, 59, 146);
     color: white;
     cursor: pointer;
     width: 91%;
@@ -112,11 +114,16 @@
 }
 #google{
     background-color: aliceblue;
-    background-size: 10%;
+    padding-inline: 20px;
+    border-radius: 5px;
 }
 #facebook{
     background-color: aliceblue;
+    padding-inline: 20px;
+    border-radius: 5px;
 }
 #apple{
     background-color: aliceblue;
+    padding-inline: 20px;
+    border-radius: 5px;
 }
