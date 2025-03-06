@@ -1,0 +1,122 @@
+.split{
+    display: flex;
+    background-color: rgb(250, 227, 250);
+    border: 40px auto;
+    height: 80%;
+    width: 80%;
+    margin: 50px auto;
+}
+#heading{
+    color: purple;
+    text-align: center;
+    font-size: xxx-large;
+}
+.image{
+    width: 31%;
+    height: 100%;
+    margin: 20px;
+    padding: 5%;
+}
+.Name{
+    display: flex; gap: 40px;
+}
+#first_name{
+    padding: 8px;
+    margin: 5px;
+    width: 110%;
+}
+#last_name{
+    padding: 8px;
+    margin: 5px;
+    width: 110%;
+    margin-left: 0.99cm;
+}
+#lname{
+    margin-left: 0.99cm;
+}
+#email_address{
+    width: 88%;
+    padding: 8px;
+    margin: 6px;
+}
+#password{
+    width: 88%;
+    padding: 8px;
+    margin: 6px;
+}
+.form-signup{
+    border-collapse: collapse;
+    margin: 20px;
+    border-left: 1px solid purple;
+    padding: 4%;
+    height: 82%;
+    width: 42%;
+    float: left;
+    text-align: left;
+    color: black;
+}
+#submit_button{
+    background: none;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    width: 91%;
+    padding: 8px;
+    margin: 6px;
+}
+.hr-lines{
+    position: relative;
+    max-width: 500px;
+    margin: 40px auto;
+    text-align: center;
+    color: rgb(44, 38, 38);
+
+}
+.hr-lines:before{
+    content:"";
+    height: 2px;
+    width: 200px;
+    background:rgb(122, 107, 107) ;
+    display: block;
+    position: absolute;
+    top: 35%;
+    left: 4%;
+}
+
+.hr-lines:after{
+    content: "";
+    height: 2px;
+    width: 200px;
+    background: rgb(138, 126, 126);
+    position: absolute;
+    top: 35%;
+    right: 4%;
+}
+.icons{
+    font-size: smaller;
+    text-align: center;
+    justify-content: center;
+    display: flex;gap: 70px;
+}
+#eyeone{
+    position: absolute;
+    right:400px;
+    top: 410px;
+    color: gray;
+}
+#eyetwo{
+    position: absolute;
+    right:400px ;
+    top:474px ;
+    color: gray;
+}
+#google{
+    background-color: aliceblue;
+    background-size: 10%;
+}
+#facebook{
+    background-color: aliceblue;
+}
+#apple{
+    background-color: aliceblue;
+}
